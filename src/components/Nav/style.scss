@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    border: 1px solid black;
+    background-color: #1A2430;
+    height: 100vh; /*A MODIF*/
+
+}
+
+.nav-link{
+    align-items: stretch;
+    list-style-type: none;
+    text-align: left;
+  }
