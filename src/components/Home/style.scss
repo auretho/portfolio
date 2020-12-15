@@ -1,9 +1,22 @@
 .home{
     height: 100vh;
-    width: 100%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: pink;
 
     &-title{
         color: #fff;
+        font-size: 5em;
+        // font-weight: bold;
+    }
+
+    &-title span{
+        color: #f0f;
+        font-weight: bold;
+        text-shadow: 3px 3px 1px rgb(0, 183, 255);
     }
 
 }
