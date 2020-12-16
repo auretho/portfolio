@@ -9,14 +9,14 @@ const Home = () => (
         <h1 className="home-title">développeuse web Front-End</h1>
 
         <div className="button-container">
-            <button type="submit" disabled="" className="contact-button" id="home-button">
-                <Link to="/parcours">
-                    <span className="button-text" >
-                        C'est parti 
-                        <ArrowForwardIcon id="arrow-button"/>
-                    </span>
-                </Link>
-            </button>
+            <Link to="/parcours">
+                <button type="submit" disabled="" className="contact-button" id="home-button">
+                        <span className="button-text" >
+                            C'est parti 
+                            <ArrowForwardIcon id="arrow-button"/>
+                        </span>
+                </button>
+            </Link>
         </div>
     </div>
 )

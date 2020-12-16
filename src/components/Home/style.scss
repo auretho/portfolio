@@ -44,6 +44,7 @@
 }
 
 #home-button{
+    position: relative;
     margin-top: 2em;
     transition-duration: .3s;
     &:hover{
