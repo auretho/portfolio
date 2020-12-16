@@ -7,11 +7,17 @@ import './style.scss';
 
 const Nav = () => (
     <nav className="nav">
-        <NavLink className="nav-link-home" to="/home">
+        <NavLink className="nav-link-home" to="/">
             <FlashAutoIcon style={{ fontSize: 80 }}  />
+        </NavLink>
+        <NavLink className="nav-link" to="/">
+            Home
         </NavLink>
         <NavLink className="nav-link" to="/parcours">
             Parcours
+        </NavLink>
+        <NavLink className="nav-link" to="/competences">
+            Compétences
         </NavLink>
         <NavLink className="nav-link" to="/projets">
             Projets

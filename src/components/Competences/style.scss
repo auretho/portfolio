@@ -1,0 +1,49 @@
+.competences{
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.test{
+    height: 100px;
+}
+
+.one{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 2px solid purple;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    animation-name: couleur;
+    animation-duration: 2s;
+
+}
+
+.two{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    position: relative;
+    top: 0px;
+    left: 60px;
+    transition-duration: 1.2s;
+
+}
+
+.two:hover{
+    transform: scale(1.5) translate(200px);
+}
+
+@keyframes couleur{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: blue;
+    }
+}

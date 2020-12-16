@@ -1,0 +1,41 @@
+.project{
+        background-color: #fff;
+        display: inline-block;
+        margin: 2em;
+        padding: 3em;
+        border-radius: 10px;
+        animation-name: margin-move;
+        animation-duration: 1s;
+        margin-left: 80px;
+
+
+    &-title{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-bottom: 1em;
+    }
+
+    &-description{
+        margin-bottom: 1em;
+    }
+
+    &-image{
+        height: 220px;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px black;
+    }
+}
+
+@keyframes margin-move{
+    from{
+        margin-left: 0;    
+    }
+    50%{
+        margin-left: 100px;
+    }
+    to{
+        margin-left: 80px;
+    }
+}
