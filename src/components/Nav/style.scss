@@ -1,11 +1,15 @@
 .nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 12vw;
     border: 1px solid black;
     background-color: #1A2430;
     padding: .2em;
+    z-index: 2;
 
     &-block{
         display: flex;
@@ -13,7 +17,6 @@
     }
 
     &-link, &-link-home{
-        text-align: left;
         color: #fff;
         text-transform: uppercase;
         margin: .2em 1em;
@@ -41,5 +44,4 @@
 
 .nav .active{
     border-bottom: 2px solid rgb(0, 153, 255);
-
 }

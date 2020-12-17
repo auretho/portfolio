@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // background-color: pink;
 }
   
 .hexagon{
@@ -18,5 +17,4 @@
 
 .hexagon image{
     transform: translateX(-9%);
-    text-shadow:1px 1px rgba(255, 255, 255, 0.295);
-  }
+}

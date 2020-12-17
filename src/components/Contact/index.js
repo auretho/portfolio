@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './style.scss';
@@ -28,12 +27,12 @@ const Contact = () => (
                 </form>
         </div>
         <div className="social">
-        <Link to="https://github.com/auretho">
+        <a href="https://www.linkedin.com/in/athouzeau/">
             <LinkedInIcon className="social-icons" style={{ fontSize: 40 }}/> 
-        </Link>
-        <Link to="https://www.linkedin.com/in/athouzeau/">
+        </a>
+        <a href="https://github.com/auretho">
             <GitHubIcon className="social-icons" style={{ fontSize: 40 }}/>
-        </Link>
+        </a>
         </div>
     </div>
 )

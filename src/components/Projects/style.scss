@@ -1,13 +1,15 @@
 .project{
-        background-color: rgba(255, 255, 255, 0.769);
-        display: inline-block;
-        margin: 2em;
-        padding: 3em;
-        border-radius: 10px;
-        animation-name: margin-move;
-        animation-duration: 1s;
-        margin-left: 80px;
-        position: relative;
+    position: relative;
+    z-index: 3;
+    top: 100px;
+    background-color: rgba(255, 255, 255, 0.769);
+    display: inline-block;
+    margin: 2em;
+    padding: 3em;
+    border-radius: 10px;
+    animation-name: margin-move;
+    animation-duration: 1s;
+    margin-left: 80px;
 
 
     &-title{
