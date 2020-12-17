@@ -45,3 +45,20 @@
 .nav .active{
     border-bottom: 2px solid rgb(0, 153, 255);
 }
+
+.mobile-nav{
+    display: none;
+}
+
+// =========== RESPONSIVE MOBILE <480px
+
+@media(max-width:480px){
+    .menu{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+        margin-right: 50px;
+    }
+}
