@@ -1,49 +1,22 @@
-.competences{
-    background-color: purple;
-    height: 500px;
-    width: 500px;
-    margin: auto;
+.skills{
     position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: pink;
+}
+  
+.hexagon{
+    width: 120px;
+    margin-right: 10px;
 }
 
-.test{
-    height: 100px;
+.hexagon-row:nth-child(1n+2) {
+    margin-top: -2%;
 }
 
-.one{
-    background-color: pink;
-    height: 100px;
-    width: 100px;
-    border: 2px solid purple;
-    position: relative;
-    top: 40px;
-    left: 40px;
-    animation-name: couleur;
-    animation-duration: 2s;
-
-}
-
-.two{
-    background-color: lightblue;
-    height: 100px;
-    width: 100px;
-    border: 2px solid green;
-    position: relative;
-    top: 0px;
-    left: 60px;
-    transition-duration: 1.2s;
-
-}
-
-.two:hover{
-    transform: scale(1.5) translate(200px);
-}
-
-@keyframes couleur{
-    from{
-        background-color: pink;
-    }
-    to{
-        background-color: blue;
-    }
-}
+.hexagon image{
+    transform: translateX(-9%);
+    text-shadow:1px 1px rgba(255, 255, 255, 0.295);
+  }
