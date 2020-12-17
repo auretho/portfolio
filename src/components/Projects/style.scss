@@ -1,33 +1,52 @@
-.project{
+.projects{
     position: relative;
-    z-index: 3;
-    top: 100px;
-    background-color: rgba(255, 255, 255, 0.769);
-    display: inline-block;
-    margin: 2em;
-    padding: 3em;
+    // top: 100px;
+    padding-top: 5%;
+    min-height: 100vh;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 500px;
+    height: 320px;
+    background-color: #ffffffc4;
+    margin: 2em auto;
+    padding: 2em;
     border-radius: 10px;
     animation-name: margin-move;
     animation-duration: 1s;
-    margin-left: 80px;
+    display: inline-block;
 
 
     &-title{
         font-size: 1.5em;
         font-weight: bold;
         padding-bottom: 1em;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
     }
 
     &-description{
         margin-bottom: 1em;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
     }
 
     &-image{
         height: 220px;
         display: block;
-        margin: auto;
+        margin: 1em auto;
         border-radius: 10px;
         box-shadow: 1px 1px 3px black;
+    }
+
+    &-construction{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.2em;
     }
 }
 

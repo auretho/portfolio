@@ -9,6 +9,7 @@ import Career from '../Career';
 import Skills from '../Skills';
 import Projects from '../Projects';
 import Contact from '../Contact';
+import Error from '../Error';
 
 import './style.scss';
 
@@ -29,27 +30,12 @@ function App() {
       />
         
         <Switch>
-
-          <Route exact path="/">
-            <Home />
-          </Route>
-
-          <Route path="/parcours">
-            <Career />
-          </Route>
-
-          <Route path="/competences">
-            <Skills />
-          </Route>
-
-          <Route path="/projets">
-            <Projects />
-          </Route>
-
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/parcours" component={Career} />
+          <Route exact path="/competences" component={Skills}/>
+          <Route exact path="/projets" component={Projects}/>
+          <Route exact path="/contact" component={Contact}/>
+          <Route component={Error} />
         </Switch>
       </main>
     </div>
