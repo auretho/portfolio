@@ -1,5 +1,7 @@
 .career{
+    position: relative;
     color: #fff;
+
     
     &-head{
         margin: 4em auto;
@@ -19,6 +21,10 @@
         font-size: 1.5em;
         width: 70%;
         margin: auto;
-        text-align: justify;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(222, 222, 238);
     }
 }

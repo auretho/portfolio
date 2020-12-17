@@ -10,7 +10,7 @@ const Timeline = () => (
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date="2020"
                     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                     icon={<StarIcon />}
@@ -23,7 +23,7 @@ const Timeline = () => (
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date="2020"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<SchoolIcon />}
@@ -37,7 +37,7 @@ const Timeline = () => (
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date="2020"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<SchoolIcon />}
@@ -50,7 +50,7 @@ const Timeline = () => (
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     date="2019-2020"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -64,7 +64,7 @@ const Timeline = () => (
                 </VerticalTimelineElement>               
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date="2017-2019"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<WorkIcon />}
@@ -77,7 +77,7 @@ const Timeline = () => (
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date="2014-2017"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<WorkIcon />}
@@ -90,7 +90,7 @@ const Timeline = () => (
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date="2012-2014"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<WorkIcon />}

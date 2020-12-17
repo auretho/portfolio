@@ -1,5 +1,6 @@
 import React from 'react';
 import Timeline from './timeline';
+import VideogameAssetIcon from '@material-ui/icons/VideogameAsset';
 
 import './style.scss';
 
@@ -7,7 +8,8 @@ const Career = () => (
     <div className="career">
         <div className="career-head">
             <h2 className="career-title">Parcours</h2>
-            <p className="career-intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam veniam quisquam ab iusto voluptatibus, nulla architecto maiores sed! Nisi id aliquid atque quod quidem voluptates deleniti iure accusantium, nobis amet impedit nostrum placeat molestias, modi rem quia voluptatibus iste sed maxime? Illum molestias dolorem corporis dolorum, inventore perspiciatis laudantium accusantium.</p>
+            <p className="career-intro">Anciennement responsable évènementiel et passionnée d’informatique, j’ai commencé à coder et à créer mes propres jeux vidéo en autodidacte pour finalement me décider à me lancer dans une reconversion professionnelle et devenir développeuse web et qui sait un jour, bosser sur un projet de jeu vidéo! <VideogameAssetIcon fontSize="large"/></p>
+            
         </div>
         <div className="career-description">
             <Timeline />
