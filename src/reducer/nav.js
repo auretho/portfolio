@@ -23,7 +23,7 @@ const initialState = {
 ]
 }
 
-const career = (state = initialState, action = {}) => {
+const nav = (state = initialState, action = {}) => {
     switch (action.type) {
        
         default:
@@ -31,4 +31,4 @@ const career = (state = initialState, action = {}) => {
     }
 };
 
-export default career;
+export default nav;
