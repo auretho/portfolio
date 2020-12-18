@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import StarfieldAnimation from 'react-starfield-animation'
 
 
-import Nav from '../Nav';
+import Nav from '../../containers/Nav';
 import Home from '../Home';
 import Career from '../../containers/Career';
 import Skills from '../Skills';
