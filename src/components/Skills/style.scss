@@ -1,4 +1,5 @@
 .skills{
+    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,4 +18,16 @@
 
 .hexagon image{
     transform: translateX(-9%);
+}
+
+// =========== RESPONSIVE MOBILE <480px
+
+@media(max-width:480px){
+    .hexagon{
+        width: 100px;
+    }
+
+    .hexagon-row:nth-child(1n+2) {
+        margin-top: -5%;
+    }
 }

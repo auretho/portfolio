@@ -8,7 +8,7 @@ const Contact = () => (
         <div className="contact-info">
                 <form id="contact-form" method="">
                     <div className="contact-input input-small required">
-                        <label className="label">Name</label>
+                        <label className="label">Nom</label>
                         <input type="text" id="name" name="name" className="input"/>
                     </div>
                     <div className="contact-input input-small required email">
@@ -17,11 +17,11 @@ const Contact = () => (
                     </div>
                     <div className="contact-input required">
                         <label className="label">Message</label>
-                        <textarea id="message" name="message" className="input"></textarea>
+                        <textarea id="message" name="message" className="input input-textarea"></textarea>
                     </div>
                     <div className="button-container">
                         <button type="submit" disabled="" className="contact-button">
-                            <span className="button-text">Send Message</span>
+                            <span className="button-text">Envoyer</span>
                         </button>
                     </div>
                 </form>

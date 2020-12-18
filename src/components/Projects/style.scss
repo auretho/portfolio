@@ -1,6 +1,5 @@
 .projects{
     position: relative;
-    // top: 100px;
     padding-top: 5%;
     min-height: 100vh;
     display: flex;  
@@ -70,4 +69,29 @@
     to{
         margin-left: 80px;
     }
+}
+
+
+// =========== RESPONSIVE MOBILE <480px
+
+@media(max-width:480px){
+    .projects{
+        padding-top: 18%;
+    }
+
+    .project{
+        width: 350px;
+        height: 350px;
+        background-color: #5e6e9ba8;
+        margin-top: 0;
+        margin-bottom: 1em;
+        color: #fff;
+        border-radius: 5px;
+
+        &-title{
+            color:#fff;
+            text-shadow: 1px 1px 4px black;
+        }
+    }
+
 }

@@ -26,7 +26,7 @@ function App() {
           width: '100%',
           height: '100%',
         }}
-        numParticles= {2000}
+        numParticles= {500}
       />
         
         <Switch>

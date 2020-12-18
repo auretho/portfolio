@@ -1,20 +1,18 @@
 import React from 'react';
-import Typical from 'react-typical'
+import space from './space.png';
 
 import './style.scss';
 
 const Error = () => (
     <div className="error">
-        <Typical
-        steps={[
-            "Oups voilà qui n'était pas prévu!", 2000,
-            `Oups voilà qui n'était pas prévu! Erreur 404 - page non trouvée `, 1500,
-            "Oups voilà qui n'était pas prévu! Erreur 404 - page non trouvée :)", 500
-        ]}
-        loop={false}
-        wrapper="p"
-        className="error-text"
-      />
+        <p className="error-text">
+            Oups voilà qui n'était pas prévu! 
+            <br></br>
+            Erreur 404 - page non trouvée :)
+        </p>
+        <a href="/">
+        <img src={space} alt="astronaute" className="astronaut"/>
+        </a>
     </div>
 )
 

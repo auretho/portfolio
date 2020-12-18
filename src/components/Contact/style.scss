@@ -61,10 +61,22 @@
 }
 
 .social{
-    padding-top: 3em;
+    padding-top: 2em;
 
     &-icons{
         color:rgb(0, 145, 255);
         margin: 0 .5em;
+    }
+}
+
+.input-textarea{
+    min-height: 170px;
+}
+
+// =========== RESPONSIVE MOBILE <480px
+
+@media(max-width:480px){
+    .contact-info{
+        width: 80%;
     }
 }
