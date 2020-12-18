@@ -4,7 +4,7 @@ import VideogameAssetIcon from '@material-ui/icons/VideogameAsset';
 
 import './style.scss';
 
-const Career = () => (
+const Career = ({careerData}) => (
     <div className="career">
         <div className="career-head">
             <h2 className="career-title">Parcours</h2>
@@ -12,7 +12,7 @@ const Career = () => (
             
         </div>
         <div className="career-description">
-            <Timeline />
+            <Timeline careerData={careerData}/>
         </div>
     </div>
 )

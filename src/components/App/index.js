@@ -5,7 +5,7 @@ import StarfieldAnimation from 'react-starfield-animation'
 
 import Nav from '../Nav';
 import Home from '../Home';
-import Career from '../Career';
+import Career from '../../containers/Career';
 import Skills from '../Skills';
 import Projects from '../Projects';
 import Contact from '../Contact';
