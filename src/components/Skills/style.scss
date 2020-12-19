@@ -16,8 +16,18 @@
     }
     
     &-text{
-        background-color: #fff;
+        font-size: 5em;
+        transition-duration: 4s;
+    }
 
+    & text{
+        pointer-events: none;
+        text-shadow: 1px 1px 7px rgb(0, 0, 0);
+        text-anchor: middle;
+        font-size: 80px;
+        font-weight: bold;
+        fill: rgba(255, 255, 255, 0.90);
+        // color: rgba(255, 255, 255, 0.90);
     }
 
     &-text-hidden{

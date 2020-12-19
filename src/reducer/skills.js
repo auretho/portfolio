@@ -23,58 +23,61 @@ const initialState = {
                 white: white,
                 path: html,
                 description: "HTML 5",
-                name: "html",
-                styleTrue: { stroke: 'rgba(255, 255, 255, 0.295)', fill: '#fff' },
-                styleFalse: { stroke: 'rgba(255, 255, 255, 0.295)' },
             },
             {
                 white: white,
                 path: css,
                 description: "CSS 3",
-                name: "css",
-                styleTrue: { stroke: 'rgba(255, 255, 255, 0.295)', fill: '#fff' },
-                styleFalse: { stroke: 'rgba(255, 255, 255, 0.295)' },
             },
             {
                 white: white,
                 path: javascript,
                 description: "Javascript",
-                name: "javascript",
-                styleTrue: { stroke: 'rgba(255, 255, 255, 0.295)', fill: '#fff' },
-                styleFalse: { stroke: 'rgba(255, 255, 255, 0.295)' },
             },
             {
                 white: white,
                 path: php,
                 description: "PHP",
-                name: "php",
-                styleTrue: { stroke: 'rgba(255, 255, 255, 0.295)', fill: '#fff' },
-                styleFalse: { stroke: 'rgba(255, 255, 255, 0.295)' },
             },
         ],
         row2: [
             {
-                path: react
+                white: white,
+                path: react,
+                description: "React",
             },
             {
-                path: redux
+                white: white,
+                path: redux,
+                description: "Redux",
+
             },
             {
-                path: node
+                white: white,
+                path: node,
+                description: "Node.js",
             },
         ],
         row3: [
             {
-                path: sass
+                white: white,
+                path: sass,
+                description: "Sass",
             },
             {
-                path: mongodb
+                white: white,
+                path: mongodb,
+                description: "MongoDB",
             },
             {
-                path: MySQL
+                white: white,
+                path: MySQL,
+                description: "MySQL",
             },
             {
-                path: git
+                white: white,
+                path: git,
+                description: "Git",
             }
         ] 
     }

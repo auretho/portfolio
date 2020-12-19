@@ -1,27 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Hexagon from 'react-hexagon';
 import './style.scss';
 
 const Skills = ({icons}) => {
  
-    const [text, setText] = useState(false);
-
     const handleIconClick = (evt) => {
         const bgId = evt.target.previousSibling.lastChild.id;
-        if( evt.currentTarget.style.fill !== "rgb(255, 255, 255)"){
-            evt.currentTarget.style.fill = "rgb(255, 255, 255)";
+        const hexaClass = evt.target.viewportElement.children[2].className.baseVal
+        // console.log(evt)
+        if( evt.target.style.fill !== "rgba(255, 255, 255, 0.557)"){
+            // evt.target.style.transitionProperty = "fill";
+            // evt.target.style.transitionDuration = "5s";
+            evt.target.style.fill = "rgba(255, 255, 255, 0.557)";
+            evt.target.viewportElement.children[2].className.baseVal = "hexagon-text";
         }
         else{
-            evt.currentTarget.style.fill = `url("#${bgId}")`;
+            evt.target.style.fill = `url("#${bgId}")`;
+            evt.target.viewportElement.children[2].className.baseVal = "hexagon-text-hidden ";
         }
-
-        // if(text){
-        //     setText(!text)
-        // }
-        // else{
-        //     setText(!text)
-        // }
-        console.log(evt)
     }
 
     return(
@@ -32,13 +28,19 @@ const Skills = ({icons}) => {
                     return (
                     <div key={index} >
                         <Hexagon
-                            className={text ? " hexagon hexagon-wesh" : "hexagon" }
+                            className="hexagon"
                             style={{ stroke: 'rgba(255, 255, 255, 0.295)' }}
                             backgroundImage={icon.path}
                             backgroundScale={1.05}
                             onClick={handleIconClick}
                         >
-                            <text className={text ? "hexagon-text" : "hexagon-text-hidden"} x="50%" y="60%">REACT</text>
+                            <text 
+                                className="hexagon-text-hidden" 
+                                x="50%" 
+                                y="55%"
+                            >
+                                {icon.description}
+                            </text>
                         </Hexagon>
                     </div>
                 )})
@@ -54,7 +56,16 @@ const Skills = ({icons}) => {
                         style={{stroke: 'rgba(255, 255, 255, 0.295)'}}
                         backgroundImage={icon.path}
                         backgroundScale={1.05}
-                    />
+                        onClick={handleIconClick}
+                    >
+                        <text 
+                            className="hexagon-text-hidden" 
+                            x="50%" 
+                            y="55%"
+                        >
+                            {icon.description}
+                        </text>
+                    </Hexagon>
                 ))
             ))
             }
@@ -68,7 +79,16 @@ const Skills = ({icons}) => {
                         style={{stroke: 'rgba(255, 255, 255, 0.295)'}}
                         backgroundImage={icon.path}
                         backgroundScale={1.05}
-                    />
+                        onClick={handleIconClick}
+                        >
+                        <text 
+                            className="hexagon-text-hidden" 
+                            x="50%" 
+                            y="55%"
+                        >
+                            {icon.description}
+                        </text>
+                    </Hexagon>
                 ))
             ))
             }
