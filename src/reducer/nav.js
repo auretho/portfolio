@@ -1,3 +1,5 @@
+import { ON_TOGGLE } from '../actions/nav';
+
 const initialState = {
     sections: [
         {
@@ -25,7 +27,10 @@ const initialState = {
 
 const nav = (state = initialState, action = {}) => {
     switch (action.type) {
-       
+        case ON_TOGGLE:
+            return{
+                ...state,
+            }
         default:
             return state;
     }

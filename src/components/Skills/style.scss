@@ -10,6 +10,19 @@
 .hexagon{
     width: 120px;
     margin-right: 10px;
+    
+    &-row{
+        display: flex;
+    }
+    
+    &-text{
+        background-color: #fff;
+
+    }
+
+    &-text-hidden{
+        display: none;
+    }
 }
 
 .hexagon-row:nth-child(1n+2) {

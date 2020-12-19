@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import MenuIcon from '@material-ui/icons/Menu';
 import FlashAutoIcon from '@material-ui/icons/FlashAuto';
 
 import './style.scss';
@@ -20,7 +19,7 @@ const Nav = ({sections}) => (
             ))   
             }
         </div>
-        <div className="mobile-nav">
+        {/* <div className="mobile-nav">
             <MenuIcon style={{ color: '#fff', fontSize: 50 }} />
             <ul>
                 { sections.map((section) => (
@@ -30,7 +29,7 @@ const Nav = ({sections}) => (
                 ))
                 }
             </ul>
-        </div>
+        </div> */}
     </nav>
 )
 
