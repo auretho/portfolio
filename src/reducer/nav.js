@@ -1,6 +1,7 @@
 import { ON_TOGGLE } from '../actions/nav';
 
 const initialState = {
+    opened: false,
     sections: [
         {
             title: "Home",
@@ -30,6 +31,7 @@ const nav = (state = initialState, action = {}) => {
         case ON_TOGGLE:
             return{
                 ...state,
+            opened: !state.opened,
             }
         default:
             return state;

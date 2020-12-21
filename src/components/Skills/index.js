@@ -8,10 +8,8 @@ const Skills = ({icons}) => {
         const bgId = evt.target.previousSibling.lastChild.id;
         const hexaClass = evt.target.viewportElement.children[2].className.baseVal
         // console.log(evt)
-        if( evt.target.style.fill !== "rgba(255, 255, 255, 0.557)"){
-            // evt.target.style.transitionProperty = "fill";
-            // evt.target.style.transitionDuration = "5s";
-            evt.target.style.fill = "rgba(255, 255, 255, 0.557)";
+        if( evt.target.style.fill !== "rgba(255, 255, 255, 0.2)"){
+            evt.target.style.fill = "rgba(255, 255, 255, 0.2)";
             evt.target.viewportElement.children[2].className.baseVal = "hexagon-text";
         }
         else{

@@ -28,3 +28,20 @@
         color: rgb(222, 222, 238);
     }
 }
+
+// =========== RESPONSIVE MOBILE <480px
+
+@media(max-width:480px){
+    .career-head{
+        margin-bottom: 1em;
+    }
+
+    .career-intro{
+        font-size: 1.2em;
+        width: 80%;
+    }    
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
+    animation: none;
+}

@@ -27,7 +27,7 @@ const Projects = () => (
                 <img src={jeu} alt="extrait jeu vidéo" className="project-image" />
             </a>
        </div>
-       <div className="project">
+       <div className="project one">
             <h2 className="project-title">Family time</h2>
             <p className="project-description">
                Application de connexion inter-familiale pour garder le lien avec toute la famille.<br></br>

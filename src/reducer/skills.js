@@ -11,11 +11,7 @@ import MySQL from '../components/Skills/img/MySQL.png';
 import git from '../components/Skills/img/git.png';
 import white from '../components/Skills/img/white.png';
 
-import { HEXAGON_CHANGE } from '../actions/skills';
-import { ON_TOGGLE } from '../actions/nav';
-
 const initialState = {
-    imgVisible: false,
     icons: [
     {
         row1: [
@@ -86,18 +82,6 @@ const initialState = {
 
 const skills = (state = initialState, action = {}) => {
     switch (action.type) {
-        case HEXAGON_CHANGE:
-            return {
-              ...state,
-              ...action.payload,
-            
-            };
-        case ON_TOGGLE:
-            return {
-                ...state,
-            imgVisible: !state.imgVisible,
-            };
-    
         default:
             return state;
     }

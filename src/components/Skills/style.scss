@@ -9,7 +9,7 @@
   
 .hexagon{
     width: 120px;
-    margin-right: 10px;
+    margin: 0 5px;
     
     &-row{
         display: flex;
@@ -47,10 +47,10 @@
 
 @media(max-width:480px){
     .hexagon{
-        width: 100px;
+        width: 75px;
     }
 
     .hexagon-row:nth-child(1n+2) {
-        margin-top: -5%;
+        margin-top: -4%;
     }
 }

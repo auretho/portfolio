@@ -6,7 +6,10 @@ import './style.scss';
 const Contact = () => (
     <div className="contact">
         <div className="contact-info">
-                <form id="contact-form" method="">
+            <h2 className="contact-text">Contactez-moi!</h2>
+            <p className="contact-email">aurelie.thouzeau@gmail.com</p>
+{/* =====================PARTIE A REVOIR PLUS TARD AVEC UNE METHODE POST===================== */}
+                {/* <form id="contact-form" method="">
                     <div className="contact-input input-small required">
                         <label className="label">Nom</label>
                         <input type="text" id="name" name="name" className="input"/>
@@ -24,16 +27,17 @@ const Contact = () => (
                             <span className="button-text">Envoyer</span>
                         </button>
                     </div>
-                </form>
+                </form> */}
+            <div className="social">
+            <a href="https://www.linkedin.com/in/athouzeau/">
+                <LinkedInIcon className="social-icons" style={{ fontSize: 40 }}/> 
+            </a>
+            <a href="https://github.com/auretho">
+                <GitHubIcon className="social-icons" style={{ fontSize: 40 }}/>
+            </a>
+            </div>
         </div>
-        <div className="social">
-        <a href="https://www.linkedin.com/in/athouzeau/">
-            <LinkedInIcon className="social-icons" style={{ fontSize: 40 }}/> 
-        </a>
-        <a href="https://github.com/auretho">
-            <GitHubIcon className="social-icons" style={{ fontSize: 40 }}/>
-        </a>
-        </div>
+
     </div>
 )
 
