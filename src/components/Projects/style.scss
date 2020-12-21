@@ -1,0 +1,128 @@
+.projects{
+    position: relative;
+    padding-top: 5%;
+    min-height: 100vh;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 500px;
+    height: 320px;
+    background-color: #ffffffc4;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 10px;
+    animation-name: margin-move;
+    animation-duration: 1s;
+    display: inline-block;
+
+
+    &-title{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-bottom: 1em;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    &-description{
+        margin-bottom: 1em;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    &-image{
+        height: 220px;
+        width: 350px;
+        display: block;
+        margin: 1em auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px black;
+    
+        &:hover{
+            box-shadow: 0px 0px 10px black;
+        }
+    }
+
+    &-construction{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.2em;
+    }
+}
+
+.one{
+    animation-name: margin-move-one;
+    // margin: auto;
+}
+
+.project a:hover{
+    box-shadow: 0px 0px 10px black;
+    text-shadow: 1px 1px 4px rgb(131, 131, 131);
+}
+
+@keyframes margin-move{
+    from{
+        margin-left: 0;    
+    }
+    50%{
+        margin-left: 100px;
+    }
+    to{
+        margin-left: 80px;
+    }
+}
+
+@keyframes margin-move-one{
+    from{
+        margin-left: 10%;    
+    }
+    50%{
+        margin-left: 40%;
+    }
+    to{
+        margin-left: 30%;
+    }
+}
+
+
+// =========== RESPONSIVE MOBILE <480px
+
+@media(max-width:480px){
+    .projects{
+        padding-top: 18%;
+    }
+
+    .project{
+        width: 250px;
+        height: auto;
+        background-color: #5e6e9ba8;
+        color: #fff;
+        border-radius: 5px;
+        animation-name: none;
+        margin: .5em auto .5em ;
+
+
+        &-title{
+            color:#fff;
+            text-shadow: 1px 1px 4px black;
+        }
+
+        &-image{
+            width: 250px;
+            height: 170px;
+        }
+
+        &-description{
+            min-width: 100%;
+            // margin: 0;
+        }
+    }
+}
+
+.one {
+    animation-name: none;
+}
