@@ -28,10 +28,10 @@ const Nav = ({sections, opened, onToggle}) => {
             }
         </div>
         <div className="mobile-nav">
-            <MenuIcon className="nav-burger" style={{ color: '#fff', fontSize: 50 }} opened={opened} onClick={onToggle}/>
+            <MenuIcon className="nav-burger" style={{ color: '#fff', fontSize: 50 }} open={opened ? opened : ""} onClick={onToggle}/>
             <ul className={opened ? "nav-list-mobile" : "nav-list-mobile-hidden"}>
                 { sections.map((section) => (
-                <NavLink key={section.title} className="nav-link" exact to={`/${section.path}`} opened={opened} onClick={onToggle} >
+                <NavLink key={section.title} className="nav-link" exact to={`/${section.path}`} open={opened ? opened : ""} onClick={onToggle} >
                     <li>{section.title}</li>
                 </NavLink>
                 ))

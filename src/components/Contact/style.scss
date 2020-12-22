@@ -95,8 +95,12 @@
 
 // =========== RESPONSIVE MOBILE <480px
 
-@media(max-width:480px){
+@media (max-width:480px){
     .contact-info{
         width: 80%;
+    }
+
+    .contact-email{
+        font-size: 1.2em;
     }
 }

@@ -19,6 +19,7 @@
     
     &-intro{
         font-size: 1.5em;
+        line-height: 1.2;
         width: 70%;
         margin: auto;
         text-align: center;
@@ -26,6 +27,17 @@
         flex-direction: column;
         align-items: center;
         color: rgb(222, 222, 238);
+    }
+}
+
+.vertical-timeline-element{
+    &-title{
+    margin-bottom: .5em;
+    font-weight: bold;
+    }
+
+    &-subtitle{
+        font-style: italic;
     }
 }
 

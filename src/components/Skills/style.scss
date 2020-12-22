@@ -45,12 +45,27 @@
 
 // =========== RESPONSIVE MOBILE <480px
 
-@media(max-width:480px){
+@media(min-width: 320px) and (max-width:370px){
     .hexagon{
-        width: 75px;
+        width: 70px;
+        margin: 0 1px;
     }
 
     .hexagon-row:nth-child(1n+2) {
-        margin-top: -4%;
+        margin-top: -6%;
+        margin-bottom: 1%;
     }
 }
+
+@media(min-width: 370px) and (max-width:480px){
+    .hexagon{
+        width: 75px;
+        margin: 0 1px;
+    }
+
+    .hexagon-row:nth-child(1n+2) {
+        margin-top: -4.5%;
+        margin-bottom: .5%;
+    }
+}
+

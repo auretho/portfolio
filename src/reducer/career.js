@@ -6,7 +6,7 @@ const initialState = {
     careerData: [
         {
             title: "Lead Dev Front",
-            subtitle: "",
+            subtitle: "'Apothéose' - Formation O'Clock",
             description: "Projet de fin de formation 'My travel Road', site web à destination des grands voyageurs, sur une durée d'un mois au sein d'un groupe de 4 personnes",
             icon: <StarIcon/>,
             iconStyle: { background: 'rgb(78, 171, 3)', color: '#fff' },
@@ -15,7 +15,7 @@ const initialState = {
         },
         {
             title: "Ecole O'Clock",
-            subtitle: "Titre professionnelle développeur Web et web mobile",
+            subtitle: "Titre professionnelle développeur web et web mobile",
             description: "Formation intensive de niveau 5 sur une période de 700h. Ecole labellisée « Grande École du Numérique »",
             icon: <SchoolIcon />,
             iconStyle: { background: 'rgb(249, 192, 7)', color: '#fff' },
@@ -52,7 +52,7 @@ const initialState = {
         {
             title: "Event Coordinator",
             subtitle: "Le Méridien Beach Plaza | Monaco",
-            description: "Gestion de projets, de budgets et d’un centre de conférence de plus de 3000 m2, qualification de demandes et préparation de devis et contrats, vente optimisée, création et suivi direct de l’évènement jusqu’à l’envoi de la facture, suivi des propositions et développement d’une relation durable avec les clients, communication directe avec tous les départements de l’hôtel et prestataires externes",
+            description: "Gestion de projets, de budgets et d’un centre de conférences de plus de 3000 m2, qualification de demandes et préparation de devis et contrats, vente optimisée, création et suivi direct de l’évènement jusqu’à l’envoi de la facture, suivi des propositions et développement d’une relation durable avec les clients, communication directe avec tous les départements de l’hôtel et prestataires externes",
             icon: <WorkIcon />,
             iconStyle: { background: 'rgb(0, 163, 213)', color: '#fff' },
             date: "2014-2017",
