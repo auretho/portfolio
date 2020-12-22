@@ -6,7 +6,13 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 import './style.scss';
 
-const Nav = ({sections, opened, onToggle}) => (
+const Nav = ({sections, opened, onToggle}) => {
+    
+    const handleOutsideClick = (evt) => {
+        // console.log(evt)
+    }
+
+    return(
     <nav className="nav">
         <div className="nav-block">
             <Link className="nav-link-home" to="/">
@@ -25,7 +31,7 @@ const Nav = ({sections, opened, onToggle}) => (
             <MenuIcon className="nav-burger" style={{ color: '#fff', fontSize: 50 }} opened={opened} onClick={onToggle}/>
             <ul className={opened ? "nav-list-mobile" : "nav-list-mobile-hidden"}>
                 { sections.map((section) => (
-                <NavLink key={section.title} className="nav-link" exact to={`/${section.path}`} onClick={onToggle}>
+                <NavLink key={section.title} className="nav-link" exact to={`/${section.path}`} opened={opened} onClick={onToggle} >
                     <li>{section.title}</li>
                 </NavLink>
                 ))
@@ -33,6 +39,6 @@ const Nav = ({sections, opened, onToggle}) => (
             </ul>
         </div>
     </nav>
-)
+)}
 
 export default Nav;
