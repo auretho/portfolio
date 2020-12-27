@@ -20,14 +20,39 @@ const Skills = ({icons}) => {
 
     return(
     <div className="skills">
-        <div className="hexagon-row">
-            { icons.map((iconObject) => (
-                iconObject.row1.map((icon, index) => {
-                    return (
-                    <div key={index} >
+        <div className="hexagons">
+            <div className="hexagon-row">
+                { icons.map((iconObject) => (
+                    iconObject.row1.map((icon, index) => {
+                        return (
+                        <div key={index} >
+                            <Hexagon
+                                className="hexagon"
+                                style={{ stroke: 'rgba(255, 255, 255, 0.295)' }}
+                                backgroundImage={icon.path}
+                                backgroundScale={1.05}
+                                onClick={handleIconClick}
+                            >
+                                <text 
+                                    className="hexagon-text-hidden" 
+                                    x="50%" 
+                                    y="55%"
+                                >
+                                    {icon.description}
+                                </text>
+                            </Hexagon>
+                        </div>
+                    )})
+                ))
+                }
+            </div>
+            <div className="hexagon-row">
+                { icons.map((iconObject) => (
+                    iconObject.row2.map((icon, index) => (
                         <Hexagon
+                            key={index}
                             className="hexagon"
-                            style={{ stroke: 'rgba(255, 255, 255, 0.295)' }}
+                            style={{stroke: 'rgba(255, 255, 255, 0.295)'}}
                             backgroundImage={icon.path}
                             backgroundScale={1.05}
                             onClick={handleIconClick}
@@ -40,56 +65,33 @@ const Skills = ({icons}) => {
                                 {icon.description}
                             </text>
                         </Hexagon>
-                    </div>
-                )})
-            ))
-            }
-        </div>
-        <div className="hexagon-row">
-            { icons.map((iconObject) => (
-                iconObject.row2.map((icon, index) => (
-                    <Hexagon
-                        key={index}
-                        className="hexagon"
-                        style={{stroke: 'rgba(255, 255, 255, 0.295)'}}
-                        backgroundImage={icon.path}
-                        backgroundScale={1.05}
-                        onClick={handleIconClick}
-                    >
-                        <text 
-                            className="hexagon-text-hidden" 
-                            x="50%" 
-                            y="55%"
-                        >
-                            {icon.description}
-                        </text>
-                    </Hexagon>
+                    ))
                 ))
-            ))
-            }
-        </div>
-        <div className="hexagon-row">
-            { icons.map((iconObject) => (
-                iconObject.row3.map((icon, index) => (
-                    <Hexagon
-                        key={index}
-                        className="hexagon"
-                        style={{stroke: 'rgba(255, 255, 255, 0.295)'}}
-                        backgroundImage={icon.path}
-                        backgroundScale={1.05}
-                        onClick={handleIconClick}
-                        >
-                        <text 
-                            className="hexagon-text-hidden" 
-                            x="50%" 
-                            y="55%"
-                        >
-                            {icon.description}
-                        </text>
-                    </Hexagon>
+                }
+            </div>
+            <div className="hexagon-row">
+                { icons.map((iconObject) => (
+                    iconObject.row3.map((icon, index) => (
+                        <Hexagon
+                            key={index}
+                            className="hexagon"
+                            style={{stroke: 'rgba(255, 255, 255, 0.295)'}}
+                            backgroundImage={icon.path}
+                            backgroundScale={1.05}
+                            onClick={handleIconClick}
+                            >
+                            <text 
+                                className="hexagon-text-hidden" 
+                                x="50%" 
+                                y="55%"
+                            >
+                                {icon.description}
+                            </text>
+                        </Hexagon>
+                    ))
                 ))
-            ))
-            }
+                }
+            </div>
         </div>
     </div>
     )}

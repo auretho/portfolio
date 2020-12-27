@@ -55,11 +55,22 @@
 }
 
 
-// =========== RESPONSIVE MOBILE <480px
+// =========== RESPONSIVE MOBILE ==============
 
 @media(max-width:480px){
     .home-title{
         font-size: 2.5em;
         max-width: 90%;
+    }
+}
+
+@media(min-width: 481px) and (max-width:1200px){
+    .home-title{
+        font-size: 2.5em;
+        max-width: 90%;
+    }
+
+    #first-title{
+        margin-top: 80px;
     }
 }

@@ -6,9 +6,9 @@ import 'react-vertical-timeline-component/style.min.css';
 const Timeline = ({careerData}) => (
     <div className="timeline">
         <VerticalTimeline>
-            {careerData.map((data) => (
+            {careerData.map((data, index) => (
                 <VerticalTimelineElement
-                    key={data.description}
+                    key={index}
                     className={`vertical-timeline-element--${data.className}`}
                     contentStyle={{ background: '#20324598', color: '#fff', boxShadow: '0px 0px 6px #fff' }}
                     date={data.date}

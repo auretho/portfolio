@@ -27,6 +27,7 @@ function App() {
           height: '100%',
         }}
         numParticles= {500}
+        className="starfield-animation"
       />
         
         <Switch>
