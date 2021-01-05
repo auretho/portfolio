@@ -51,7 +51,7 @@
 
 // =========== RESPONSIVE MOBILE ==============
 
-@media(max-width:480px){
+@media only screen and(max-width:480px){
     .career-head{
         margin-bottom: 1em;
     }
@@ -62,7 +62,7 @@
     }    
 }
 
-@media (min-width:481px) and (max-width:1200px){
+@media only screen and (min-width:481px) and (max-width:1200px){
     .career-intro{
         width: 85%;
     }

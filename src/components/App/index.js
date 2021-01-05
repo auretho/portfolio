@@ -26,8 +26,18 @@ function App() {
           width: '100%',
           height: '100%',
         }}
-        numParticles= {500}
         className="starfield-animation"
+      />
+
+      {/* ========= ONLY SHOWED ON MOBILE =========== */}
+      <StarfieldAnimation
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+        }}
+        numParticles= {200}
+        className="starfield-animation-mobile"
       />
         
         <Switch>

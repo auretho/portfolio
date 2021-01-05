@@ -26,7 +26,8 @@
 
     &-list-mobile{
         background-color: #141f2be2;
-        border: .2px solid #fff;
+        border: .2px solid rgba(255, 255, 255, 0.434);
+        box-shadow: 1px 1px 3px black;
         border-radius: 3px;
         padding: .6em;
     }
@@ -53,7 +54,7 @@
     }
 
     & .active{
-        border-bottom: 2px solid rgb(0, 153, 255);
+        border-bottom: 2px solid #fff;
     }
 }
 
@@ -66,7 +67,7 @@
 
 // =========== RESPONSIVE MOBILE ==============
 
-@media(max-width:768px){
+@media only screen and(max-width:768px){
     .menu{
         display: none;
     }
