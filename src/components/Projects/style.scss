@@ -147,8 +147,11 @@
     }
 }
 
-@media only screen and(min-width:1025px) and (max-width: 1200px){
+@media only screen and(min-width:1025px){
     .project{
         animation-name: appear;
+        width: 500px;
+        height: 350px;
+        overflow-y: hidden;
     }
 }

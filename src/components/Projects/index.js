@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import jeu from './jeu.png';
 import family from './family.png';
 import travel from './travel.png';
+import converter from './converter.png';
 
 
 import './style.scss';
@@ -32,6 +33,16 @@ const Projects = () => (
                     <img src={family} alt="extrait jeu vidéo" className="project-image" />
             </Link>
        </div>
+       <div className="project">
+            <a href="http://moneyXchange.surge.sh">
+                <h2 className="project-title">Convertisseur</h2>
+            <p className="project-description">Convertisseur de devises</p>
+                <img src={converter} alt="convertisseur" className="project-image" />
+            </a>
+       </div>
+
+
+       
     </div>
 )
 
