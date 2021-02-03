@@ -24,6 +24,13 @@ const Projects = () => (
                 <img src={jeu} alt="extrait jeu vidéo" className="project-image" />
             </a>
        </div>
+       <div className="project">
+            <a href="http://moneyXchange.surge.sh">
+                <h2 className="project-title">Convertisseur</h2>
+            <p className="project-description">Convertisseur de devises</p>
+                <img src={converter} alt="convertisseur" className="project-image" />
+            </a>
+       </div>
        <div className="project one">
             <Link to ="/error">
                 <h2 className="project-title">Family time</h2>
@@ -32,13 +39,6 @@ const Projects = () => (
                 <span className="project-construction">En construction!</span></p>
                     <img src={family} alt="extrait jeu vidéo" className="project-image" />
             </Link>
-       </div>
-       <div className="project">
-            <a href="http://moneyXchange.surge.sh">
-                <h2 className="project-title">Convertisseur</h2>
-            <p className="project-description">Convertisseur de devises</p>
-                <img src={converter} alt="convertisseur" className="project-image" />
-            </a>
        </div>
 
 
