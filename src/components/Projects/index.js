@@ -27,7 +27,7 @@ const Projects = () => (
        <div className="project">
             <a href="http://moneyXchange.surge.sh">
                 <h2 className="project-title">Convertisseur</h2>
-            <p className="project-description">Convertisseur de devises</p>
+            <p className="project-description">Convertisseur d'euro en devises internationales avec filtrage possible de la liste des devises</p>
                 <img src={converter} alt="convertisseur" className="project-image" />
             </a>
        </div>
