@@ -1,6 +1,6 @@
 .home{
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,10 @@
         animation-duration: 1.2s;
         position: relative;
     }
+}
+
+#first-title{
+    margin-top: 80px;
 }
 
 @keyframes drop-top{
@@ -63,9 +67,9 @@
         max-width: 90%;
     }
     
-    #first-title{
-        margin-top: 80px;
-    }
+    // #first-title{
+    //     margin-top: 80px;
+    // }
 }
 
 @media only screen and(min-width: 481px) and (max-width:1200px){
@@ -74,7 +78,5 @@
         max-width: 90%;
     }
 
-    #first-title{
-        margin-top: 80px;
-    }
+
 }

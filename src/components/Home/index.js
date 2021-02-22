@@ -9,7 +9,7 @@ import './style.scss';
 const Home = () => (
     <div className="home">
         <h1 className="home-title" id="first-title">Hello, je suis <span className="home-name">Aurélie</span>,</h1>
-        <h1 className="home-title">développeuse web Front-End</h1>
+        <h1 className="home-title">développeuse web</h1>
 
         <div className="button-container">
             <Link to="/parcours">
