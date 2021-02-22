@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
+// import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+// import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+// import SkipNextIcon from '@material-ui/icons/SkipNext';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import './style.scss';
 
