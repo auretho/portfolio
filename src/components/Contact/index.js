@@ -7,7 +7,7 @@ const Contact = () => (
     <div className="contact">
         <div className="contact-info">
             <h2 className="contact-text">Contactez-moi!</h2>
-            <p className="contact-email">aurelie.thouzeau@gmail.com</p>
+            <a href="mailto:aurelie.thouzeau@gmail.com" className="contact-email">aurelie.thouzeau@gmail.com</a>
 {/* =====================PARTIE A REVOIR PLUS TARD AVEC UNE METHODE POST===================== */}
                 {/* <form id="contact-form" method="">
                     <div className="contact-input input-small required">

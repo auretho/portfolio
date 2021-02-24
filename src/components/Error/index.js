@@ -6,7 +6,7 @@ import './style.scss';
 const Error = () => (
     <div className="error">
         <p className="error-text">
-            Oups voilà qui n'était pas prévu! 
+            Oups ! Soit vous souhaitez accéder à une page en construction, soit vous êtes perdu!
             <br></br>
             Erreur 404 - page non trouvée :)
         </p>
