@@ -6,7 +6,7 @@ const Skills = ({icons}) => {
  
     const handleIconClick = (evt) => {
         const bgId = evt.target.previousSibling.lastChild.id;
-        const hexaClass = evt.target.viewportElement.children[2].className.baseVal
+        // const hexaClass = evt.target.viewportElement.children[2].className.baseVal
         console.log(evt)
         if( evt.target.style.fill !== "rgba(255, 255, 255, 0.2)"){
             evt.target.style.fill = "rgba(255, 255, 255, 0.2)";

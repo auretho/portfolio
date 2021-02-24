@@ -8,9 +8,9 @@ import './style.scss';
 
 const Nav = ({sections, opened, onToggle}) => {
     
-    const handleOutsideClick = (evt) => {
-        // console.log(evt)
-    }
+    // const handleOutsideClick = (evt) => {
+    //     // console.log(evt)
+    // }
 
     return(
     <nav className="nav">
