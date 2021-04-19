@@ -35,6 +35,14 @@ const Projects = () => (
                 <img src={converter} alt="convertisseur" className="project-image" />
             </a>
        </div>
+       {/* <div className="project one">
+            <Link to ="/project">
+                <h2 className="project-title">Family time</h2>
+                <p className="project-description">
+                TEST </p>
+                <img src={family} alt="extrait jeu vidéo" className="project-image" />
+            </Link>
+       </div> */}
        <div className="project one">
             <Link to ="/error">
                 <h2 className="project-title">Family time</h2>

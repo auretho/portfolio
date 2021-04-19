@@ -2,7 +2,6 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import StarfieldAnimation from 'react-starfield-animation'
 
-
 import Nav from '../../containers/Nav';
 import Home from '../Home';
 import Career from '../../containers/Career';
@@ -46,6 +45,7 @@ function App() {
           <Route exact path="/competences" component={Skills}/>
           <Route exact path="/projets" component={Projects}/>
           <Route exact path="/contact" component={Contact}/>
+
           <Route component={Error} />
         </Switch>
       </main>
