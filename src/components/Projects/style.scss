@@ -9,11 +9,11 @@
 
 .project{
     width: 500px;
-    min-height: 320px;
+    min-height: 150px;
     background-color: #ffffffc4;
     margin: 1em;
     padding: 1.5em 0 ;
-    // border-radius: 10px;
+    border-radius: 2px;
     animation-name: margin-move;
     animation-duration: 1s;
     display: inline-block;
@@ -31,7 +31,7 @@
 
     &-description{
         margin-bottom: 1em;
-        max-width: 90%;
+        max-width: 95%;
         margin: auto;
         text-align: center;
         line-height: 1.2;
@@ -42,11 +42,11 @@
     }
 
     &-image{
-        height: 220px;
-        width: 350px;
+        height: 150px;
+        width: 250px;
         display: block;
         margin: 1em auto;
-        border-radius: 10px;
+        border-radius: 2px;
         box-shadow: 1px 1px 3px black;
     
         &:hover{
@@ -141,9 +141,6 @@
 @media only screen and(min-width:481px) and (max-width: 768px){
     .project{
         margin: 1em auto;
-    }
-
-    .project{
         padding: 1.5em .5em;    
         width: 430px; 
     }
@@ -156,8 +153,8 @@
 @media only screen and(min-width:1025px){
     .project{
         animation-name: appear;
-        width: 500px;
-        height: 350px;
+        // width: 500px;
+        //height: 280px;
         overflow-y: hidden;
     }
 }

@@ -5,6 +5,15 @@ import StarIcon from '@material-ui/icons/Star';
 const initialState = {
     careerData: [
         {
+            title: "Créatrice de solutions web & mobile",
+            subtitle: "Cowemo | Nice, France",
+            description: "Création et maintenance de sites web pour petite, moyenne ou très grande entreprise, via l'utilisation de la plateforme Jahia",
+            icon: <WorkIcon/>,
+            iconStyle: { background: 'rgb(0, 163, 213)', color: '#fff' },
+            date: "2021",
+            className: "work"
+        },
+        {
             title: "Lead Dev Front",
             subtitle: "'Apothéose' - Formation O'Clock",
             description: "Projet de fin de formation 'My travel Road', site web à destination des grands voyageurs, sur une durée d'un mois au sein d'un groupe de 4 personnes",
