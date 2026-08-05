@@ -14,6 +14,7 @@ Actuellement **Créatrice de solutions web & mobile** chez **Cowemo**, où j'int
 
 - **GMF** (gmf.fr, m.gmf.fr) — site institutionnel et mobile : ateliers de cadrage, spécifications techniques, développement de modules, maintenance
 - **Virbac** — plus de 50 sites Internet et Extranet responsive (virbac.com, virbac.com.au, virbac.fr...) : architecture, développement, migrations, gestion multi-environnements
+- **IBC** (ibc.org) — refonte du site principal afin de maximiser le trafic, augmenter les réservations à l'évènement annuel et améliorer le SEO
 
 ## 🛠️ Stack technique
 
